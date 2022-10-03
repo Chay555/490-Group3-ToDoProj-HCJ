@@ -1,6 +1,6 @@
 # Thought Tank User Story
 
-Weight: 2 <br>
+Weight: 2
   <br>-As a user, I want to be able to document my goals and aspirations that I have at the moment so that I can find 
   <br>new things to put into my to do list. 
 <br>Weight: 1
