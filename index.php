@@ -40,7 +40,8 @@ include_once 'connect.php';
     $resultCheck = mysqli_num_rows($result);
     if ($resultCheck > 0) {
       while ($row = mysqli_fetch_assoc($result)) {
-        echo $row['journal_entry'] . "<hr><br>";
+        echo $row['journal_entry']
+        . "<hr><br> ";
       }
     }
     ?>
