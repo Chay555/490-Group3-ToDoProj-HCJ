@@ -1,8 +1,9 @@
 <?php
-	session_start();
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,37 +19,33 @@
       <ul class="nav me-auto">
       </ul>
       <ul class="nav">
-		<li class="nav-item"><a href="indexSignup.php" class="nav-link link-dark px-2" name="submit2">Sign-Up</a></li>
+        <li class="nav-item"><a href="indexSignup.php" class="nav-link link-dark px-2" name="submit2">Sign-Up</a></li>
       </ul>
     </div>
   </nav>
-  <div class="container d-flex flex-wrap justify-content-center">
-    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+  <header class="py-3 mb-4 border-bottom">
+    <div class="container d-flex flex-wrap justify-content-center">
       <svg class="bi me-2" width="40" height="32">
-        <use xlink:href="#bootstrap"></use>
+        <span class="fs-4">DiaExpedia - Journal </span>
       </svg>
-	 <span class="fs-4">DiaExpedia - Daily Journal!</span>
-    </a>
-  </div>
-  
-
-<body>
-    <section class="index-login">
-        <div class="row mb-3">
-			<br>
-            <div class="index-login-login">
-                <h2>Login</h2>
-                <p>Enter user information.</p>
-                <form action="includes/login.inc.php" method="post">
-                    <input type="text" name="uid" placeholder="Username">
-                    <input type="password" name="pwd" placeholder="Password">
-                    <br>
-                    <button type="submit" class="btn btn-primary" name="submit">Login</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
+    </div>
+  </header>
+  <section class="index-login">
+    <div class="row mb-3">
+      <br>
+      <div class="index-login-login">
+        <h2>Login</h2>
+        <p>Enter user information.</p>
+        <form action="includes/login.inc.php" method="post">
+          <input type="text" name="uid" placeholder="Username">
+          <input type="password" name="pwd" placeholder="Password">
+          <br>
+          <br></br>
+          <button type="submit" class="btn btn-primary" name="submit">Login</button>
+        </form>
+      </div>
+    </div>
+  </section>
 </body>
 
 <div class="container">

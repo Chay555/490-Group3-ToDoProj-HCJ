@@ -16,21 +16,15 @@
       </ul>
       <ul class="nav">
         <li class="nav-item"><a href="/indexJournal.php" class="nav-link link-dark px-2">Journal</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Logout</a></li>
+        <li class="nav-item"><a href="/index.php" class="nav-link link-dark px-2">Logout</a></li>
       </ul>
     </div>
   </nav>
   <header class="py-3 mb-4 border-bottom">
     <div class="container d-flex flex-wrap justify-content-center">
-      <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32">
-          <use xlink:href="#bootstrap"></use>
+            <span class="fs-4">DiaExpedia - TodoList </span>
         </svg>
-        <span class="fs-4">DiaExpedia - TodoList</span>
-      </a>
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-      </form>
     </div>
   </header>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
