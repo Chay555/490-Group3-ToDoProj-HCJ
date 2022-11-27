@@ -1,8 +1,9 @@
 <?php
+if(isset($_POST["submit2"]))
+{
 
 session_start();
 session_unset();
 session_destroy();
 
-// Going to back to front page
-header("location: ../index.php?error=none");
+}
