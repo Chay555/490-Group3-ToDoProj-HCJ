@@ -27,7 +27,7 @@
       <svg class="bi me-2" width="40" height="32">
         <use xlink:href="#bootstrap"></use>
       </svg>
-	  <span class="fs-4">DiaExpedia - Daily Journal!</span>
+	  <span class="fs-4">DiaExpedia</span>
     </a>
   </div>
   

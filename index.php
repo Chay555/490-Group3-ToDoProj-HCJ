@@ -26,7 +26,7 @@ session_start();
   <header class="py-3 mb-4 border-bottom">
     <div class="container d-flex flex-wrap justify-content-center">
       <svg class="bi me-2" width="40" height="32">
-        <span class="fs-4">DiaExpedia - Journal </span>
+        <span class="fs-4">DiaExpedia</span>
       </svg>
     </div>
   </header>

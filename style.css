@@ -1,0 +1,6 @@
+.success {color: #006100;}
+.error {color: #AD0000;}
+nav a {
+    padding: 10px;
+    border: 2px solid #000000;
+}
