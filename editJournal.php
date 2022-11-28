@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     //POST method - update task data
 
     $id = $_POST["id"];
-    $journalEntry = $_POST["journalEntry"];
+    $journalEntry = $_POST["journal_entry"];
 
     do {
         if (empty($id) || empty($journalEntry)) {
@@ -97,10 +97,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 
         <form method="post">
             <input type="hidden" name="id" value="<?php echo $id; ?>">
-            <div class="row mb-3">
+            <div class="row mb-7">
                 <label class="col-sm-3 col-form-label">Requested Entry</label>
-                <div class="col-sm-6">
-                    <textarea type='text' class="form-control" name="journalEntry" value="<?php echo $journalEntry;?>"></textarea>
+                <div class="col-sm-7">
+                    <textarea rows="7" maxlength="250" minlength="0" class="form-control" name="journal_entry"><?php echo $journalEntry;?></textarea>
                     <p></p>
                 </div>
             </div>
